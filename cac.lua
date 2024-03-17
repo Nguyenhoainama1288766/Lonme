@@ -1588,13 +1588,13 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(.3)
-    require(game.ReplicatedStorage.Notification).new("<Color=Green>Welcome To Night Hub<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Green>Chào mừng Đến Với Script Của Duy Mod Game<Color=/>"):Display()
     wait(.2)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Owner : ! NightX<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Owner : ! DUYMODGAME<Color=/>"):Display()
     wait(.3)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>Channel : LMNGAMING<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>Channel : DUYMODGAME<Color=/>"):Display()
     wait(.4)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : https://discord.gg/R4xC3t2Xm8<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Zalo : https://zalo.me/g/hudugs462<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Green>! DestroyX and T... and House Of Blance is the Best <Color=/>"):Display()
 end)
@@ -1603,16 +1603,16 @@ end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nghiavndeptraivcc/Orion-nhu-cut/main/Orion.Source')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Night Hub", 
+    Name = "DUY MOD GAME", 
     HidePremium = false,
-    IntroText = "Night Library", 
+    IntroText = "BYDUY MOD GAME", 
     SaveConfig = true, 
-    ConfigFolder = "Night Hub"
+    ConfigFolder = "DUY MOD GAME"
 })
 
 function Notify(Hiri, Mi)
     OrionLib:MakeNotification({
-        Name = "[Night Hub]",
+        Name = "[DUYMOD GAME]",
         Content = Hiri,
         Image = "rbxassetid://16771492968",
         Time = Mi
@@ -1634,13 +1634,13 @@ local Section = I:AddSection({
 	Name = "Info Owner"
 })
 
-I:AddLabel("Owner : ! NightX")
+I:AddLabel("Owner : ! DUY MOD GAME")
 I:AddLabel("Best Brothers : ! DestroyX & T...")
 I:AddLabel("Best Friends : House Of Blance")
 I:AddLabel("Dev : I Am Alone...")
 
 local Section = I:AddSection({
-	Name = "Update and Discord"
+	Name = "Update and Zalo"
 })
 
 I:AddLabel("Update Use Old Ui")
@@ -1650,10 +1650,10 @@ I:AddLabel("Update FastAttack")
 I:AddLabel("Update Bypass Teleport")
 
 I:AddButton({
-	Name = "Join My Discord",
+	Name = "Tham Gia Zalo",
 	Callback = function()
-      	Notify("Set Link Discord In Your Clipboard...", 5)
-        setclipboard("https://discord.gg/R4xC3t2Xm8")
+      	Notify("Set Link Zalo In Your Clipboard...", 5)
+        setclipboard("https://zalo.me/g/hudugs462")
   	end    
 })
 
